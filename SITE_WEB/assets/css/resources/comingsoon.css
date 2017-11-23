@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: "Gotham Rounded Medium";
+    src: url("../fonts/GothamRoundedMedium_21022.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Gotham Rounded Bold";
+    src: url("../fonts/GothamRoundedBold_21016.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: "Gotham Rounded Light";
+    src: url("../fonts/GothamRoundedLight_21020.ttf") format('truetype');
+}
+
+
+
+html,
+body {
+    font-size: 24px;
+    font-family: "Gotham Rounded Medium", sans-serif;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    box-sizing: border-box;
+    color: #f7f7f7;
+}
+
+header {
+    background: linear-gradient(to right, rgba(0, 78, 146, .61), rgba(0, 4, 40, .61)),url("../../images/comingsoon2.jpg");
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+::selection {
+    background-color: #E91E63;
+    color: #fff;
+}
+
+::-moz-selection {
+    background-color: #512DA8;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 240%;
+    font-family: "Gotham Rounded Light";
+}
+h1:after {
+    content: ' ';
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    width: 100px;
+    margin: 20px auto;
+
+}
+
+div.logo {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+
+}
+
+.timer {
+    margin-top: 40px;
+}
+
+ul#timer {
+    list-style: none;
+}
+
+ul#timer > li {
+    font-size: 180%;
+    color: #f7f7f7;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+
+
+.social-icons {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+    padding: 7px;
+    margin-right: 7px;
+    color: #f7f7f7;
+}
+
+.social-icons p {
+    font-size: 80%;
+    margin-bottom: -50px;
+}
+
+.fa-heart {
+    color: #f44336;
+}
